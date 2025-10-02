@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday Dad</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #d2edff 0%, #fcb69f 100%);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      padding: 40px 20px;
+      position: relative;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #ff6b6b;
+      animation: rotateText 6s infinite linear;
+      display: inline-block;
+    }
+    @keyframes rotateText {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(3deg); }
+      50% { transform: rotate(-3deg); }
+      75% { transform: rotate(3deg); }
+      100% { transform: rotate(0deg); }
+    }
+    .emoji {
+      font-size: 1.5em;
+      margin: 0 5px;
+    }
+    p {
+      font-size: 1.1em;
+      color: #444;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .card p {
+      padding: 15px;
+      margin: 0;
+      font-size: 1em;
+      color: #555;
+    }
+    footer {
+      margin: 40px 0 20px;
+      font-size: 1em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎂🎉 Happy Birthday, Dad 🎉🎂</h1>
+    <p><span class="emoji">💖</span> Celebrating the wonderful memories and love we share <span class="emoji">💖</span></p>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="photo_2025-10-02 22.10.46.jpeg" alt="Memory 1">
+      <p>🌍 Family trip to Bangkok — 2025 ✈️</p>
+    </div>
+    <div class="card">
+      <img src="photo_2025-10-02 22.10.44.jpeg" alt="Memory 2">
+      <p>💐 Wishing you happiness, health, and many more joyful years ahead 🎊</p>
+    </div>
+    <div class="card">
+      <img src="photo_2025-10-02 22.10.48.jpeg" alt="Memory 3">
+      <p>✨ May the coming years bring peace, success, and unforgettable moments 🌟</p>
+    </div>
+  </section>
+
+  <footer>
+    Made with love ❤️ Just scan the QR code to visit anytime 💌
+    <br><br>
+    <img src="/Users/chawmyatthirikhin/Downloads/IGCSE/frame(3).png" alt="QR Code">
+  </footer>
+  
+  
+</body>
+</html>
